@@ -1,6 +1,6 @@
 import fs from 'fs';
 
- export function checkPasswd(password, allSockets, socket) {
+ export function checkPassword(password, allSockets, socket) {
      try {
          let res = "Authentication failed\r\n";
          let json = fs.readFileSync('./data/user.json');

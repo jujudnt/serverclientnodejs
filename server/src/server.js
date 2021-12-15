@@ -1,6 +1,6 @@
 import { createServer } from "net";
 import { checkUser } from './function/checkUser';
-import {checkPasswd } from './function/checkPassword';
+import { checkPassword } from './function/checkPassword';
 
 export function launch(port) {
   const server = createServer((socket) => {
